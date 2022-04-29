@@ -1,5 +1,5 @@
 # DNDcommerce
-DND commerce Project created using Java, MySQL as the database, and Stripe.
+DND commerce Project created using Java, MySQL as the database, Stripe, and own API.
 Styling using personal CSS and bootstrap.
 Allow users to view and search for items in website.
 Depending if users are logged in or not, will have different experiences.
