@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Sans-Serif;
+}
+
+@font-face {
+    font-family: 'Elden Ring';
+    src: url(../fonts/Mantinia\ Regular.ttf);
+    
+}
+
+.elden {
+	color: white !important;
+	font-family: Elden Ring;
+	text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+}
+
+.noLine {
+	text-decoration: none !important;
+	color: black;
+}
+
+.bar {
+	background-color:#353839;
+	display: flex;
+	justify-content:space-evenly;
+}
+
+.subtotalBar {
+	background-color:#353839;
+	display: flex;
+	justify-content:space-between;
+	padding:0px 15px;
+	color: white;
+	margin-top:1%;
+	margin-bottom:1%;
+}
+
+.subTable {
+	width: 80% !important;
+	margin-right:1%;
+}
+
+.sub1 {
+	  text-align: left;
+}
+
+.sub2 {
+  text-align: right;
+}
+
+.checkout {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.white {
+	color:white !important;
+	text-decoration: none !important;
+	text-shadow: 0 0 3px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+}
+
+
+.whiteNoShadow{
+	color:white !important;
+	text-decoration: none !important;
+}
+
+.search {
+	display: flex; 
+	justify-content: flex-end;
+	padding-bottom: 5px;
+}
+
+.banner {
+  background-image: url(https://i.imgur.com/oSioilZ.png);
+
+  background-size: 100% 100%;
+}
+
+.product-grid {
+	display:flex;
+	flex-wrap:wrap;
+	grid-template-columns: repeat(4,25%);
+
+	border:solid;
+	margin-top: 2px;
+}
+
+img {
+	max-width: 100%;
+    max-height: 100%;
+}
+
+.itemImage {
+	transition: 500ms;
+
+}
+
+.smallImg {
+	display: block;
+	margin-top: 1%;
+	margin-bottom: 1%;
+  	margin-left: auto;
+  	margin-right: auto;
+	height:50%;
+	width: 50%;	
+}
+
+.thumbImg {
+	margin-top: 1%;
+	margin-bottom: 1%;
+	height:10%;
+	width: 10%;	
+}
+
+.imgBanner {
+	display:flex;
+	justify-content:space-between;
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+}
+
+.primaryImg {
+	display: block;
+	width: 110%;	
+	margin-left:10%;
+}
+
+.secondImgs {
+	display:flex;
+	flex-direction:column;
+	height: 100%
+}
+
+.groupImg {
+	display: block;
+	margin-bottom:1%;
+	width: 70%;	
+	object-fit: contain;
+}
+
+.section {
+	margin:auto;
+	border-style: groove;
+
+}
+
+.add {
+	background-color:orange;
+	padding:2% 50% ;
+}
+
+.buttons {
+	display: flex;
+	justify-content:space-evenly;
+}
+
+.between {
+	justify-content:space-between;
+}
+
+.numInput {
+	 width: 25%;
+ 	height: 25%;
+}
+
+.numInputAdd {
+	 width: 25%;
+ 	height: 25%;
+ 	background-color:orange;
+}
+
+
+.wish {
+	background-color: aqua;
+	padding:2% 50% ;
+	border-radius:16px;
+}
+
+.wishDelete {
+	margin-right:5px;
+	background-color: red;
+	color:white;
+	padding:2% 15% ;
+	border-radius:16px;
+}
+
+.deleteItemCart {
+	margin-right:5px;
+	background-color: red;
+	color:white;
+	padding:2% 10% ;
+	border-radius:16px;
+}
+
+.updateCart {
+	margin-right:5px;
+	background-color: yellow;
+	color:white;
+	width:110%;
+	padding:2% 0% ;
+	border-radius:16px;
+}
+
+.continueShopping {
+	margin-right:5px;
+	background-color: rgb(0, 255, 0);
+	color:white;
+	width:110%;
+	padding:2% 0% ;
+	border-radius:16px;
+}
+
+.itemBox {
+	display:flex;
+	justify-content: space-evenly;
+	align-items:center;
+}
+
+.bold {
+	  font-weight: bold;
+}
+
+.numberInput {
+	width:20%;
+}
+
+.descriptionBox {
+	border-style:groove;
+	padding:5px;
+}
+
+.smallFont {
+	font-size:100%;
+	margin-left: 1%
+}
+
+.center{
+	text-align: center;
+}
+
+.orderedTitle {
+	display:flex;
+
+}
